@@ -1,2 +1,34 @@
 Please add your pseudocode to this file
+
+/**
+FUNCTION getConsecutiveSubstrings(string):
+
+    CREATE empty array result 
+
+    FOR i from 0 to length of string -1: 
+
+        FOR j from i to length of string -1: 
+
+            ADD substring from index i to j (inclusive) to result 
+    
+    RETURN result 
+End Algorithm 
+/**
+
+
 And a written explanation of your solution
+
+/**
+*Algorithmic Type: 
+* Brute-force substring generation using nested loops
+*/
+
+/**
+*Time Complexity Analysis: 
+* The time complexity of this solution is O(n^2), where n is the length of the input string. 
+* This is due to the use of two nested loops that generate all possible consecutive substrings.
+* The space complexity is also 0(n^2) because the algorithm stores every generated substring in an output array. 
+*/
+
+
+
